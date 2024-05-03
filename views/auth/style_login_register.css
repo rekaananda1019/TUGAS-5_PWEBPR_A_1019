@@ -1,0 +1,29 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2f6cdb, #21a9df);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Login/Register form styles */
+.login-form, .register-form {
+    background-color: #92c5e2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2, .register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#register-link, #login-link {
+    color: #0a2d52;
+    cursor: pointer;
+}
